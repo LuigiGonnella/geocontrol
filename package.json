@@ -11,7 +11,8 @@
     "generate-dto": "node scripts/generate-dto-models.js",
     "create-root": "ts-node -r tsconfig-paths/register scripts/create-root-user.ts",
     "build": "tsc",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
