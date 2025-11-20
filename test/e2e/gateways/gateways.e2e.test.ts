@@ -3,7 +3,7 @@ import { app } from "@app";
 import { generateToken } from "@services/authService";
 import { beforeAllE2e, afterAllE2e, TEST_USERS } from "@test/e2e/lifecycle";
 
-describe("Gateways E2E", () => {
+describe("Gateways E2E", () => { 
   let token: string;
 
   beforeAll(async () => {
