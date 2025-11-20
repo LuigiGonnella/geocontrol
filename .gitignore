@@ -6,4 +6,3 @@ data
 database.sqlite
 openapitools.json
 logs
-coverage
